@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!--meta tags do cabeçalho da pagina-->
+    <meta charset="UTF-8">
+    <meta name="description" content="sua clinica medica agora digital o mundo está mudando
+    e juntos estamos acompanhando. nossos profissionais estão sempre se atualizando na tecnologia e temos agora consulta virtual">
+    <meta name="robots" content="index follow">
+    <title>CMlife - home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--links dos arquivos adicionais-->
+    <link rel="stylesheet" href="arquivos/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        
+        <!--nav bar de mobile responsivo-->
+        <button onclick="menu()"><img src="img/nav.png" alt=""></button>
+        <nav id="mobile" class="off">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+                <li><p><a href="">ENTRAR</a></p></li>
+            </ul>
+        </nav>
+        <!--nav bar para desktop e tablets-->
+        <nav id="desktop">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+        <h1>CMLife<img src="img/logo2.png" alt="">Home</h1>
+    </header>
+    <main>
+        <!--seção com uma imagem de fundo e uma div que está o texto da pagina-->
+        <section class="banner">
+            <div>
+                <h1>Clínica Médica Life
+                Aqui a gente cuida de você</h1>
+            </div>
+        </section>
+        <!--seção sobre com uma lista não ordenada e uma imagem-->
+        <section id="sobre">
+            <div class="container-text">
+                <div class="sobre text">
+                    <h2>Sobre a Clínica</h2>
+                    <p>Nossa clínica está pronta para receber nossos pacientes através de uma excelenteestrutura,
+                    comodidade e com a segurança de que você precisam.</p>
+                </div>
+            </div>
+            <div class="container-sobre">
+                    <!--uma imagem dentro de uma div e outra div com um text-->
+                <div>
+                        <img src="img/medico.jpg" alt="">
+                </div>
+                    <!--uma lista-->
+                <div class="lista">
+                    <span>Aqui na nossa clínica você vai encontrar:</span>
+                    <ul>
+                        <li>Horário flexível. Atendemos de segunda à sábado.</li>
+                        <li>Estacionamento amplo com 600 vagas.</li>
+                        <li>Sala de espera com TV e Wifi.</li>
+                        <li>Agendamento pelo telefone ou WhatsApp.</li>
+                        <li>Excelente localização.</li>
+                        <li>Entrega de exames em sua residência</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+        <!--seção expecialista-->
+        <section id="expecialista">
+            <div class="text link">
+                <h3>Uma clínica de multiespecialidade</h3>
+                <p>Nossa clínica possui diversas especialidades.
+                Como ortopedia, pediatra, geriatria, psicologia, fisioterapia e outros.</p>
+            </div>
+                <!--box sobre medicos-->
+            <div class="container-expecialistas">
+                <div class="box">
+                    <img src="img/ortopedia1.png" alt="">
+                    <p>ORTOPEDIA</p>
+                </div>
+                    
+                 <div class="box">
+                    <img src="img/pediatra.png" alt="">
+                    <p>PEDIATRA</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/geriatra.png" alt="">
+                    <p>GERIATRA</p>
+                </div>
+            </div>
+        </section>
+        <!--seção contatos-->
+        <h3><a href="#" target="_blank" class="botao"> VER HORARIOS</a></h3>
+        <section>
+            <div class="text1">
+                <h3>Contato</h3>
+                <p>Nossa clínica médica está aberto de <strong>segunda à sábado das 6:00 às 21:00</strong></p>
+                <p>Através do <strong>telefone/WhatsApp</strong> <a href="tel:(21) 99966-5555" target="_blank">(21) 99966-5555</a> 
+                você pode fazer o agendamento de consultas e exames.</p>
+                <p>Estamos localizados no estacionamento do Via Parque Shopping
+                <a href="https://goo.gl/maps/E39qRcUqZ2vecCer6?coh=178572&entry=tt" target="_blank">av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro.</a></p>
+            </div>
+
+            <!--um frame do mapa do google mostrando a localização-->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.1168145531733!2d-43.36346792531878!3d-22.98273154058837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ed54ec2e1%3A0x4431d262cad1d163!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-904!5e0!3m2!1spt-BR!2sbr!4v1684786711356!5m2!1spt-BR!2sbr"
+                width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+            </div>
+        </section>
+    </main>
+    <!--fim do conteudo principal-->
+    <footer>
+        <!--rodapé do site-->
+        <div>
+            <h1>CM<img src="img/logo2.png" alt="">Life</h1>
+        </div>
+        <div>
+            
+            <p>telefone/WhatsApp: (21) 99966-5555</p>
+            <p>Endereço: av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro</p>
+            <p>&copy;2023 Clinica Médica Life - Todos os direitos reservados</p>
+            <p>Desenvolvido por Herbert Souza</p>
+        </div>
+      
+    </footer>
+
+    <script src="arquivos/script.js"></script>
+</body>
+</html>
